@@ -1,0 +1,183 @@
+{
+	"name": "simple",
+	"variables": {
+		"background": "hsl(190, 25%, 15%)",
+		"foreground": "white",
+		"caret": "hsl(340, 100%, 50%)",
+		"line_highlight": "hsl(340, 100%, 50%)",
+		"gutter":"hsl(190, 25%, 15%)",
+		"gutter_foreground": "hsla(190, 100%, 100%, 0.3)",
+		"selection": "hsl(340, 100%, 50%)"
+	},
+	"globals": { 
+	// MAIN
+		"background": "var(background)",
+		"foreground": "var(foreground)",	
+		"caret": "var(caret)",
+			// "line_highlight": "",
+				// only used when the highlight_line setting is enabled
+			//"invisibles": "",
+			//"block_caret": "",
+			// ACCENTS			
+		"fold_marker": "var(caret)",
+			// "misspelling": "",
+			// "minimap_border": "",
+				// only used when the draw_minimap_border is enabled
+				// note that the viewport is normally only visible on hover
+				// unless the always_show_minimap_viewport setting is enabled
+			// "accent": "",
+				// The default theme uses this to highlight modified tabs when 
+				// the highlight_modified_tabs setting is enabled
+	// CSS
+			// if using minihtml functionality
+			// "popup_css": "",
+			// "phantom_css": "",
+	// GUTTER
+		"gutter": "var(gutter)",
+		"gutter_foreground": "var(gutter_foreground)",
+	// DIFF
+		"line_diff_width": "5",
+	   		// The width of the diff lines, between 1 and 8 
+			// 	"line_diff_added": "var(caret)",
+			// 	    // The color of diff markers for added lines 
+			// 	"line_diff_modified": "var(caret)",
+			// 	    // The color of diff markers for modified lines 
+			// 	"line_diff_deleted": "var(caret)",
+			// 	    // The color of diff markers for deleted lines 
+	// SELECTION
+		"selection": "var(selection)",
+		// 	//"selection_foreground": "white",
+		// 	//"selection_border": "white",
+		// 	"selection_border_width": "0",
+		// 	//"inactive_selection": "white",
+		// 	//"inactive_selection_foreground": "white",
+		// 	"selection_corner_style": "square",
+		// 		// round, cut or square
+		// 	"selection_corner_radius": "4",
+		// 		// used when selection_corner_style is round or cut
+		// // FIND
+		// 	"highlight": "yellow",
+		// 	"find_highlight": "yellow",
+		// 	// "find_highlight_foreground": "white",
+		// // GUIDES
+		// 	// guides are controlled globally by the draw_indent_guides setting
+
+		// 	"guide": "color(var(gutter_foreground) l(- 7%))",
+		// 		// only used if the option draw_normal is present in the 
+		// 		// setting indent_guide_options
+		// 	"active_guide": "var(caret)",
+		// 		// only used if the option draw_active is present in the 
+		// 		// setting indent_guide_options 
+		// 	"stack_guide": "var(gutter)",
+		// 		// only used if the option draw_active is present in the 
+		// 		// setting indent_guide_options
+		// // BRACKETS 
+		// 	// bracket matching is controlled globally by the 
+		// 	// match_brackets setting
+
+		// 	"bracket_options": "stippled_underline",
+		// 		// accepts a space-separated list from the following: 
+		// 		// underline, stippled_underline, squiggly_underline, 
+		// 		// foreground, bold, italic
+		// 	"brackets_foreground": "var(caret)",
+		// 	"brackets_contents_options": "stippled_underline",
+		// 		// accepts a space-separated list from the following: 
+		// 		// underline, stippled_underline, squiggly_underline, 
+		// 		// foreground
+		// 	"bracket_contents_foreground": "var(caret)",
+		// // TAGS
+
+		// 	//"tags_options": "stippled_underline",
+		// 		// accepts a space-separated list from the following: 
+		// 		// underline, stippled_underline, squiggly_underline, 
+		// 		// foreground
+		// 	//"tags_foreground": "var(caret)",
+		// // SHADOWS
+
+		// 	//"shadow": "white",
+		// 	//"shadow_width": "0",
+	},
+
+	"rules": [
+		{	"name": "",
+			"scope": "",
+			"foreground": "",
+			"background": "",
+			"foreground_adjust": "",
+			"selection_foreground": "",
+			"font_style": ""  // bold, italic or both 
+		},
+		{	"name": "",
+			"scope": "",
+			"foreground": "",
+			"background": "",
+			"foreground_adjust": "",
+			"selection_foreground": "",
+			"font_style": ""  // bold, italic or both 
+		},
+		{	"name": "",
+			"scope": "",
+			"foreground": "",
+			"background": "",
+			"foreground_adjust": "",
+			"selection_foreground": "",
+			"font_style": ""  // bold, italic or both 
+		},
+		{	"name": "",
+			"scope": "",
+			"foreground": "",
+			"background": "",
+			"foreground_adjust": "",
+			"selection_foreground": "",
+			"font_style": ""  // bold, italic or both 
+		},
+		{	"name": "",
+			"scope": "",
+			"foreground": "",
+			"background": "",
+			"foreground_adjust": "",
+			"selection_foreground": "",
+			"font_style": ""  // bold, italic or both 
+		},
+		{	"name": "",
+			"scope": "",
+			"foreground": "",
+			"background": "",
+			"foreground_adjust": "",
+			"selection_foreground": "",
+			"font_style": ""  // bold, italic or both 
+		},
+		{	"name": "",
+			"scope": "",
+			"foreground": "",
+			"background": "",
+			"foreground_adjust": "",
+			"selection_foreground": "",
+			"font_style": ""  // bold, italic or both 
+		},
+		{	"name": "",
+			"scope": "",
+			"foreground": "",
+			"background": "",
+			"foreground_adjust": "",
+			"selection_foreground": "",
+			"font_style": ""  // bold, italic or both 
+		},
+		{	"name": "",
+			"scope": "",
+			"foreground": "",
+			"background": "",
+			"foreground_adjust": "",
+			"selection_foreground": "",
+			"font_style": ""  // bold, italic or both 
+		},
+		{	"name": "",
+			"scope": "",
+			"foreground": "",
+			"background": "",
+			"foreground_adjust": "",
+			"selection_foreground": "",
+			"font_style": ""  // bold, italic or both 
+		}
+	]
+}
